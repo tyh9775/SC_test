@@ -1,0 +1,13 @@
+09/27/2026
+
+latest process for density number analysis for finding the space charge parameter
+
+run auto.sh to submit jobs
+-change number of splits and number of events per split depending on how much events are in runs and available time
+-recommended upper limit is around 100k events, most runs are in 50k to 70k range
+
+after jobs are finished, analyze with SCfind.sh
+-the latest cuts to use are both vtx z sig cuts and multiplicity cuts
+
+after analysis is complete, can compare delta Vx over avg trigger rate with SCcombine.sh
+
